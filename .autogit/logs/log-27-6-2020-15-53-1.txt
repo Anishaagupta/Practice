@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 27 2020 15:53:01 GMT-0700 (Pacific Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* package.json
+* src/Button.jsx
+
+
+Created files:
+* .autogit/logs/log-27-6-2020-13-38-36.txt
+
+
+Deleted files:
+
+
+Renamed files:
