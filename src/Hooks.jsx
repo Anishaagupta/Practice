@@ -1,4 +1,5 @@
 import React, { useState } from 'react'; // necessary to import useState
+import Button from './Button';
 
 function Hooks() {
   let newTime = new Date().toLocaleTimeString();
@@ -11,7 +12,8 @@ function Hooks() {
   return (
     <div>
       <h1>{currentTime}</h1>
-      <button onClick={toGetTime}>Get Current Time</button>
+      <button onClick={toGetTime}>'GetTime'</button>
+      <Button onClick={toGetTime} name='GetTime' />
     </div>
   );
 }

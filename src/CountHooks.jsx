@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from './Button';
 
 function CountHooks() {
   let count = 0;
@@ -18,12 +19,12 @@ function CountHooks() {
   return (
     <div>
       <h1>{currentCount}</h1>
-      <button onClick={Increment}>Increment</button>
-      <button onClick={Decrement}>Decrement</button>
-      <button onClick={Multiply}>Multiply</button>
-      <button onClick={Divide}>Divide</button>
+      <button onClick={Increment}>'GetTime'</button>
+      {/* <Button onClick={Increment} name='Increment' />
+      <Button onClick={Decrement} name='Decrement' />
+      <Button onClick={Multiply} name='Multiply' />
+      <Button onClick={Divide} name='Divide' /> */}
     </div>
   );
 }
-
 export default CountHooks;
