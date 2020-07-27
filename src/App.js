@@ -4,6 +4,7 @@ import CountHooks from './CountHooks';
 import DigitalClock from './DigitalClock';
 
 import './App.css';
+import State from './StateComponent/Index';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hooks />
       <CountHooks />
       <DigitalClock />
+      <State>I am Anisha {2}</State>
     </div>
   );
 }
