@@ -4,7 +4,7 @@ function CountHooks() {
   let count = 0;
   const [currentCount, setCount] = useState(count);
   const Increment = () => {
-    setCount(currentCount + 1);
+    setCount(currentCount + 100);
   };
   const Decrement = () => {
     setCount(currentCount - 1);
