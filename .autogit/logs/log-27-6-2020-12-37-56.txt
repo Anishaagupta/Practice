@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 27 2020 12:37:56 GMT-0700 (Pacific Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* src/CountHooks.jsx
+* src/Hooks.jsx
+
+
+Created files:
+* .autogit/autogit.json
+* src/Button.jsx
+
+
+Deleted files:
+
+
+Renamed files:
