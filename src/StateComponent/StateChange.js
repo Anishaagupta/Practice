@@ -7,12 +7,18 @@ class StateChange extends Component {
       name: '',
       rollno: null,
     };
+    const handleClick = () => {
+      this.setState({
+        name: this.props.name,
+        rollno: this.props.rollno,
+      });
+    };
   }
   render() {
     return (
       <div>
-        <h1>Name: {this.props.name.children}</h1>
-        <p>RollNumber: {this.props.rollno.children}</p>
+        {this.props.children}
+        <button onClick={this.handleClick}>Click</button>
       </div>
     );
   }

@@ -12,7 +12,10 @@ function App() {
       <Hooks />
       <CountHooks />
       <DigitalClock />
-      <State>I am Anisha {2}</State>
+      <State>
+        <h1>Name : I am Anisha</h1>
+        <h1>RollNumber : 01</h1>
+      </State>
     </div>
   );
 }
