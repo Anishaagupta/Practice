@@ -9,7 +9,7 @@ const CompA = () => {
   const [num, setNum] = useState(0);
   useEffect(() => {
     //alert(`you clicked ${num} times`);
-    document.title`You clicked ${num} times`;
+    document.title = `You clicked ${num} times`; // This func will run every time u click the click me button
   });
   return (
     <div>
