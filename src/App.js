@@ -5,6 +5,7 @@ import DigitalClock from './DigitalClock';
 import New from './NewComp/Index';
 import './App.css';
 import State from './StateComponent/Index';
+import Form from './SimpleForm/Index';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <h1>RollNumber : 01</h1>
       </State>
       <New />
+      <Form />
     </div>
   );
 }
