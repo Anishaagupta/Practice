@@ -9,17 +9,18 @@ export default class New extends Component {
       age: null,
       course: '',
     };
-    const change = (e) => {
-      const { name, value } = e.target;
-      this.setState({
-        [name]: value,
-      });
-    };
-    submit = (e) => {
-      e.preventDefault();
-      alert('Submitted');
-    };
   }
+  Change = (e) => {
+    //const { name, value } = e.target;
+    //[e.target.name]: e.target.value
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  };
+  Submit = (e) => {
+    e.preventDefault();
+    alert('Submitted');
+  };
   render() {
     const { name, age, rollno, course } = this.state;
     return (
@@ -28,28 +29,28 @@ export default class New extends Component {
           <input
             placeholder='your name'
             name='name'
-            onChange={this.change}
+            onChange={this.Change}
             value={name}
           />
           <input
             placeholder='your age'
             name='age'
-            onChange={this.change}
+            onChange={this.Change}
             value={age}
           />
           <input
             placeholder='your rollno'
             name='rollno'
-            onChange={this.change}
+            onChange={this.Change}
             value={rollno}
           />
           <input
             placeholder='your course'
             name='course'
-            onChange={this.change}
+            onChange={this.Change}
             value={course}
           />
-          <button name='submit'></button>
+          <button name='submit'>Submit</button>
         </form>
       </div>
     );
