@@ -10,9 +10,14 @@ export default class New extends Component {
       course: '',
     };
     const change = (e) => {
+      const { name, value } = e.target;
       this.setState({
-        [e.target.name]: e.target.value,
+        [name]: value,
       });
+    };
+    submit = (e) => {
+      e.preventDefault();
+      alert('Submitted');
     };
   }
   render() {
@@ -23,28 +28,28 @@ export default class New extends Component {
           <input
             placeholder='your name'
             name='name'
-            onChange={this.Change}
+            onChange={this.change}
             value={name}
           />
           <input
             placeholder='your age'
             name='age'
-            onChange={this.Change}
+            onChange={this.change}
             value={age}
           />
           <input
             placeholder='your rollno'
             name='rollno'
-            onChange={this.Change}
+            onChange={this.change}
             value={rollno}
           />
           <input
             placeholder='your course'
             name='course'
-            onChange={this.Change}
+            onChange={this.change}
             value={course}
           />
-          <button onClick={this.handleClick}></button>
+          <button name='submit'></button>
         </form>
       </div>
     );
