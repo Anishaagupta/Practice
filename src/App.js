@@ -3,7 +3,6 @@ import Hooks from './Hooks';
 import CountHooks from './CountHooks';
 import DigitalClock from './DigitalClock';
 import New from './NewComp/Index';
-
 import './App.css';
 import State from './StateComponent/Index';
 

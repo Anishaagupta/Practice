@@ -16,6 +16,7 @@ export default class New extends Component {
     this.setState({
       [e.target.name]: e.target.value,
     });
+    console.log(e.target.value);
   };
   Submit = (e) => {
     e.preventDefault();
