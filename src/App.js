@@ -10,6 +10,8 @@ import CompA from './Context/Index';
 
 const FirstName = createContext();
 const LastName = createContext();
+const Age = createContext();
+const Course = createContext();
 
 function App() {
   return (
@@ -26,7 +28,11 @@ function App() {
       <FirstName.Provider value='Anisha'>
         {/**This is how useContext is used */}
         <LastName.Provider value='Gupta'>
-          <CompA />
+          <Age.Provider value={24}>
+            <Course.Provider value='B.tech'>
+              <CompA />
+            </Course.Provider>
+          </Age.Provider>
         </LastName.Provider>
       </FirstName.Provider>
     </div>
@@ -34,4 +40,4 @@ function App() {
 }
 
 export default App;
-export { FirstName, LastName };
+export { FirstName, LastName, Age, Course };
