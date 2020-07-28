@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jul 27 2020 23:34:35 GMT-0700 (Pacific Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/StateComponent/StateChange.js
+
+
+Created files:
+* .autogit/logs/log-27-6-2020-19-55-19.txt
+* src/SimpleForm/Index.js
+* src/SimpleForm/SimpleForm.js
+
+
+Deleted files:
+
+
+Renamed files:
